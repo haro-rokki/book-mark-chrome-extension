@@ -44,5 +44,3 @@ export const Editor: React.FC<Props> = ({
     />
   )
 }
-
-export default Editor

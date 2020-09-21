@@ -5,7 +5,7 @@ export type FormattedDate = {
 
 export const formatDate = (d: Date, now: Date): FormattedDate => {
   return {
-    datetime: '',
-    isNew: false,
+    datetime: '2020/9/21 11:22:00',
+    isNew: true,
   }
 }

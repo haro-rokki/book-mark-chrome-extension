@@ -8,4 +8,11 @@ describe('formatDate', () => {
       isNew: true,
     })
   })
+
+  test('1週間経過', () => {
+    expect(formatDate(new Date('2020-09-14 11:22:00'), now)).toEqual({
+      datetime: '2020/09/14 11:22',
+      isNew: false,
+    })
+  })
 })
